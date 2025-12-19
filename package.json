@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "apple-clone",
+=======
+  "name": "apple",
+>>>>>>> origin/main
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -13,7 +17,10 @@
     "@tailwindcss/vite": "^4.1.18",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
+<<<<<<< HEAD
     "react-icons": "^5.5.0",
+=======
+>>>>>>> origin/main
     "tailwindcss": "^4.1.18"
   },
   "devDependencies": {
