@@ -1,0 +1,22 @@
+// const Navbar = () => {
+//   return (
+//     /* 1. Added 'relative' here so the dropdown sticks to this bar */
+//     <div className="Navbar relative flex w-full bg-green-600 h-[44px] items-center text-white text-sm">
+      
+//       {/* 2. This container keeps nav links centered */}
+//       <ul className="menu flex max-w-[1000px] w-full mx-auto gap-x-[20px] bg-red-500 h-full items-center px-4">
+//         <li><a href="/" className="font-bold">LoGO</a></li>
+
+//         {Object.entries(menuData).map(([title, columns], index) => (
+//           /* IMPORTANT: Remove 'left-0' or 'relative' from this <li> */
+//           <li key={index} className="group h-full flex items-center">
+//             <a href="#" className="hover:opacity-70">{title}</a>
+            
+//             {/* Pass columns to the dropdown */}
+//             <DropdownMenu columns={columns} />
+//           </li>
+//         ))}
+//       </ul>
+//     </div>
+//   );
+// };

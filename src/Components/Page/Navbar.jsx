@@ -8,7 +8,7 @@ const Navbar = () => {
 
             <li className=' group'>
                 <a href="">Store</a>
-                <div className=' absolute w-full 
+                <div className=' absolute w-full
                 left-0
                 min-h[125px]
                  bg-blue-600
@@ -59,9 +59,10 @@ const Navbar = () => {
 
 
             
-            <li className='relative group'>
+            <li className=' group'>
             <a href="">Mac</a>
-            <div className=' absolute w-[891px] 
+            <div className=' absolute w-full
+            left-0
                 min-h[125px]
                  bg-blue-600
                   hidden 
@@ -117,9 +118,10 @@ const Navbar = () => {
         
         
         
-            <li className='relative group'>
+            <li className=' group'>
                 <a href="">Ipad</a>
-                <div className=' absolute w-[891px] 
+                <div className=' absolute w-full 
+                left-0
                 min-h[125px]
                  bg-blue-600
                   hidden 
@@ -168,9 +170,10 @@ const Navbar = () => {
 
 
             
-            <li className='relative group'>
+            <li className=' group'>
             <a href="">Iphone</a>
-            <div className=' absolute w-[891px] 
+            <div className=' absolute w-full 
+            left-0
                 min-h[125px]
                  bg-blue-600
                   hidden 
@@ -221,10 +224,11 @@ const Navbar = () => {
            
            
            
-            <li className='relative group'>
+            <li className=' group'>
             <a href="">Watch</a>
-            <div className=' absolute w-[891px] 
+            <div className=' absolute w-full 
                 min-h[125px]
+                left-0
                  bg-blue-600
                   hidden 
                   group-hover:flex
@@ -273,9 +277,10 @@ const Navbar = () => {
 
           
           
-            <li className='relative group'>
+            <li className='group'>
             <a href="">Vision</a>
-            <div className=' absolute w-[891px] 
+            <div className=' absolute w-full 
+            left-0
                 min-h[125px]
                  bg-blue-600
                   hidden 
@@ -313,9 +318,10 @@ const Navbar = () => {
           
 
           
-            <li className='relative group'>
+            <li className=' group'>
             <a href="">Airpods</a>
-            <div className=' absolute w-[891px] 
+            <div className=' absolute w-full
+            left-0
                 min-h[125px]
                  bg-blue-600
                   hidden 
@@ -352,9 +358,10 @@ const Navbar = () => {
             
                  
             
-            <li className='relative group'>
+            <li className=' group'>
             <a href="">TV& Home</a>
-            <div className=' absolute w-[891px] 
+            <div className=' absolute w-full
+            left-0
                 min-h[125px]
                  bg-blue-600
                   hidden 
@@ -399,9 +406,10 @@ const Navbar = () => {
 
 
 
-            <li className='relative group'>
+            <li className=' group'>
             <a href="">Entertainment</a>
-            <div className=' absolute w-[891px] 
+            <div className=' absolute w-full
+            left-0
                 min-h[125px]
                  bg-blue-600
                   hidden 
@@ -433,10 +441,11 @@ const Navbar = () => {
            
 
            
-            <li className='relative group'>
+            <li className=' group'>
             <a href="">Accessories</a>
-            <div className=' absolute w-[891px] 
+            <div className=' absolute w-full
                 min-h[125px]
+                left-0
                  bg-blue-600
                   hidden 
                   group-hover:flex
@@ -467,10 +476,11 @@ const Navbar = () => {
             </li>
    
           
-            <li className='relative group'>
+            <li className=' group'>
             <a href="">Support</a>
-            <div className=' absolute w-[891px] 
+            <div className=' absolute w-full
                 min-h[125px]
+                left-0
                  bg-blue-600
                   hidden 
                   group-hover:flex
@@ -506,20 +516,82 @@ const Navbar = () => {
                 </ul>
                 </div>
              </div>
+            </li>
+          
+          
+          
+          
+            <li className='group'>
+            <a href="">Search</a>
+            <div className=' absolute w-full
+                min-h[125px]
+                left-0
+                 bg-blue-600
+                  hidden 
+                  group-hover:flex
+                  justify-center
+                  '>
+               <div>
+                <ul>
+                    <input type="text" placeholder='Search apple.com' 
+                    className='w-[927px] '
+                    />
+                    <li><a href="">Quik Links</a></li>
+                    <li><a href="">Shop Gifts</a></li>
+                    <li><a href="">Find a Store</a></li>
+                    <li><a href="">Apple Gift Card</a></li>
+                    <li><a href="">Apple Vision Pro</a></li>
+                    <li><a href="">Apple Trand in</a></li>
+                </ul>
+                </div>
+             </div>
+            </li>
             
+               
             
+      
             
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
+            <li className='group'>
+            <a href="">Shop</a>
+            <div className=' absolute w-full
+                min-h[125px]
+                left-0
+                 bg-blue-600
+                  hidden 
+                  group-hover:flex
+                  '>
+               <div>
+                <ul>
+                    <li><a href="">Your Bag is empty</a></li>
+                    <li><a href=""><span className='underline-blue-600'>Sign in</span>
+                    to see if you have any saved items
+                    </a></li>
+                    <li><a href="">My Profile</a></li>
+                    <li><a href="">Orders</a></li>
+                    <li><a href="">Your Saves</a></li>
+                    <li><a href="">Account</a></li>
+                    <li><a href="">Sign in</a></li>
+                </ul>
+                </div>
+                {/* <div>
+                <ul>
+                    <li><a href="">Get Help</a></li>
+                    <li><a href="">Community</a></li>
+                    <li><a href="">Check Converage</a></li>
+                    <li><a href="">Genius Bar</a></li>
+                    <li><a href=""></a></li>
+                </ul>
+                </div> */}
+                {/* <div>
+                <ul>
+                    <li><a href="">Helpful Topics</a></li>
+                    <li><a href="">Get AppleCare</a></li>
+                    <li><a href="">Applw Account and <br /> Password</a></li>
+                    <li><a href="">Billing & Subscriptions</a></li>
+                    <li><a href=""></a></li>
+                </ul>
+                </div> */}
+             </div>
             
             
             
@@ -536,32 +608,23 @@ const Navbar = () => {
             
             
             </li>
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-            <li><a href="">Search</a></li>
-            <li><a href="">Shop</a></li>
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
          </ul>
   </div>
   </>
